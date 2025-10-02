@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Ethan Carson
+# DATE: 10/2/2025
+# BRIEF DESCRIPTION:  This program outputs a compliment only if the user responds with 'yes'
 
 
 
@@ -15,7 +15,10 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
+user_input = input('Would you like a compliment? ')
+if user_input == 'yes':
+    print('You have wonderful eyes.')
+print('Thank you for playing.')
 
 
 
@@ -67,11 +70,11 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
+I'd probably rate it a 3 out of 10. It's not as simple as printing something to the screen, it requires both user input and an if clause, but both are still on a basic level.
 
 
 2. What was the hardest part of this lab?
-
+Funilly enough, just remembering that to check equality, you need 2 equal signs, strange I forgot that coming off of JS.
 
 
 
